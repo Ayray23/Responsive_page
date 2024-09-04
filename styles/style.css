@@ -4,15 +4,27 @@
     box-sizing: border-box;
 }
 .navbar{
-    padding: 3em;
+    padding: 2em 0;
     display: flex;
     justify-content: space-between;
     background-color: lightblue;
 
 }
+.navbar h3{
+    margin-left:12px ;
+}
+.menu-icon{
+    color: black;
+    font-size:1.5rem;
+    display: none;
+}
+.navbar ul{
+    margin-right: 12px;
+}
 ul li{
     display: inline;
-    margin-left: 2.5em;
+    margin: 2em;
+    justify-content: space-around;
 }
 .hero-bg{
     height: 600px;
@@ -143,8 +155,24 @@ p{
     }
     .hero-btn{
         margin-top: 1rem;
-        padding: 15px 40px;
-           
+        padding: 15px 40px;      
+    }
+    .menu-icon{
+        color: black;
+        font-size:1.5rem;
+        display: block;
+        margin-left: auto;
+        margin-right: 15px;
+    }
+    nav{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding:15px
+    }
+    .navbar ul{
+        display: none;
     }
     .container-sides-control{
         display: flex;
